@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    int choix;
+    float a, b;
+
+    do {
+        printf("\n1. Addition\n2. Soustraction\n3. Multiplication\n4. Division\n0. Quitter\n");
+        printf("Choix: ");
+        scanf("%d", &choix);
+
+        if(choix >=1 && choix <=4) {
+            printf("Entrez deux nombres: ");
+            scanf("%f %f", &a, &b);
+        }
+
+        switch(choix) {
+            case 1: printf("Resultat = %.2f\n", a+b); break;
+            case 2: printf("Resultat = %.2f\n", a-b); break;
+            case 3: printf("Resultat = %.2f\n", a*b); break;
+            case 4:
+                if(b != 0)
+                    printf("Resultat = %.2f\n", a/b);
+                else
+                    printf("Division par zero!\n");
+                break;
+        }
+    } while(choix != 0);
+
+    return 0;
+}
