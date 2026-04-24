@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+
+#define MAX 100
+
+int main() {
+    char livres[MAX][50];
+    int n = 0, i, choix;
+    char search[50];
+
+    do {
+        printf("\n1. Ajouter livre\n2. Afficher\n3. Rechercher\n0. Quitter\n");
+        scanf("%d", &choix);
+
+        switch(choix) {
+            case 1:
+                printf("Nom du livre: ");
+                scanf("%s", livres[n]);
+                n++;
+                break;
+
+            case 2:
+                for(i=0;i<n;i++)
+                    printf("%d. %s\n", i+1, livres[i]);
+                break;
+
+            case 3:
+                printf("Livre a chercher: ");
+                scanf("%s", search);
+                for(i=0;i<n;i++) {
+                    if(strcmp(search, livres[i]) == 0)
+                        printf("Trouve: %s\n", livres[i]);
+                }
+                break;
+        }
+    } while(choix != 0);
+
+    return 0;
+}
