@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+
+#define MAX 100
+
+int main() {
+    char noms[MAX][50];
+    char nums[MAX][20];
+    int n = 0, i;
+    int choix;
+    char search[50];
+
+    do {
+        printf("\n1. Ajouter\n2. Afficher\n3. Rechercher\n0. Quitter\n");
+        scanf("%d", &choix);
+
+        switch(choix) {
+            case 1:
+                printf("Nom: ");
+                scanf("%s", noms[n]);
+                printf("Numero: ");
+                scanf("%s", nums[n]);
+                n++;
+                break;
+
+            case 2:
+                for(i=0;i<n;i++)
+                    printf("%s - %s\n", noms[i], nums[i]);
+                break;
+
+            case 3:
+                printf("Nom a chercher: ");
+                scanf("%s", search);
+                for(i=0;i<n;i++) {
+                    if(strcmp(search, noms[i]) == 0)
+                        printf("Trouve: %s - %s\n", noms[i], nums[i]);
+                }
+                break;
+        }
+    } while(choix != 0);
+
+    return 0;
+}
