@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    float note, somme = 0, moyenne;
+
+    printf("Nombre de matieres: ");
+    scanf("%d", &n);
+
+    for(i = 0; i < n; i++) {
+        printf("Note %d: ", i+1);
+        scanf("%f", &note);
+        somme += note;
+    }
+
+    moyenne = somme / n;
+
+    printf("Moyenne = %.2f\n", moyenne);
+
+    if(moyenne >= 10)
+        printf("Admis\n");
+    else
+        printf("Ajourné\n");
+
+    return 0;
+}
