@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main() {
+    int secret, guess, essais = 0;
+
+    srand(time(NULL));
+    secret = rand() % 100 + 1;
+
+    do {
+        printf("Devine le nombre (1-100): ");
+        scanf("%d", &guess);
+        essais++;
+
+        if(guess > secret)
+            printf("Trop grand!\n");
+        else if(guess < secret)
+            printf("Trop petit!\n");
+
+    } while(guess != secret);
+
+    printf("Bravo! Trouve en %d essais\n", essais);
+
+    return 0;
+}
