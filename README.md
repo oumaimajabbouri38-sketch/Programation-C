@@ -1,22 +1,24 @@
 # 👋 Hi, I'm Oumaima Jabbouri
 
 🎓 Computer Science student  
-💻 Passionate about Programming (C & Python)  
+💻 Passionate about C Programming  
 🚀 Focused on Problem Solving & Building Projects  
 
 ---
 
 ## 🛠️ Tech Stack
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+<p align="center">
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code"/>
+</p>
 
 ---
 
 ## 🧠 About This Repository
 
-This repository contains my beginner programming projects in **C and Python**, created to improve my logic, problem-solving skills, and programming fundamentals.
+This repository contains my beginner **C programming projects**, created to improve my logic, problem-solving skills, and programming fundamentals.
 
 ---
 
@@ -28,8 +30,8 @@ This repository contains my beginner programming projects in **C and Python**, c
 - Uses loops & conditions  
 
 ### 📚 Mini Library Manager
-- Basic library system  
-- Add / manage books  
+- Add and manage books  
+- Simple library system  
 
 ### 📞 Contact Manager
 - Store and manage contacts  
@@ -41,23 +43,7 @@ This repository contains my beginner programming projects in **C and Python**, c
 - Checks password strength  
 
 ### 🧮 Calculator (Menu-based)
-- Basic calculator with options  
-
----
-
-# 🐍 Python Projects
-
-### 🔢 Math & Logic
-- Fibonacci Sequence Generator  
-- Factorial (Iterative & Recursive)  
-- Power Calculator  
-
-### 🧩 Strings & Logic
-- Palindrome Checker  
-
-### 📊 Data Structures
-- Simple Dictionary Project  
-- Recursive Practice  
+- Basic calculator with menu options  
 
 ---
 
@@ -65,11 +51,11 @@ This repository contains my beginner programming projects in **C and Python**, c
 
 - Variables  
 - Loops (for, while)  
-- Conditions (if/else)  
+- Conditions (if / else)  
 - Functions  
-- Arrays (C)  
+- Arrays  
 - Input/Output (scanf / printf)  
-- Problem solving logic  
+- Problem-solving logic  
 
 ---
 
@@ -77,25 +63,19 @@ This repository contains my beginner programming projects in **C and Python**, c
 
 - Improve programming logic  
 - Master C language fundamentals  
-- Learn Web Development  
-- Build real-world projects  
-- Improve Git & GitHub skills  
+- Build strong problem-solving skills  
+- Learn software development basics  
+- Improve Git & GitHub usage  
 
 ---
 
 ## 📊 GitHub Stats
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=oumaimajabbouri38-sketch&show_icons=true&theme=tokyonight)
-
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ---
 
-## 🔥 Most Used Languages
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=oumaimajabbouri38-sketch&layout=compact&theme=tokyonight)
-
----
-
-## 📫 Contact
+## 📫 Contact Me
 
 - 💼 LinkedIn: https://www.linkedin.com/in/oumaima-jabbouri-97781131b  
 - 💻 GitHub: https://github.com/oumaimajabbouri38-sketch  
